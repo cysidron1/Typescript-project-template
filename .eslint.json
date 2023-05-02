@@ -1,0 +1,21 @@
+{
+    "extends": "airbnb-typescript/base",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "rules": {
+        "indent": ["error", 2, { "SwitchCase": 1 }],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "semi": ["error", "always"],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "comma-dangle": ["error", "always-multiline"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "func-call-spacing": ["error", "never"],
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "object-curly-spacing": ["error", "always"],
+    "prefer-const": "error",
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }]
+    }
+  }
+  
